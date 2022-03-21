@@ -1,0 +1,502 @@
+body
+{
+    /* font-family: 'Source Sans Pro', sans-serif; */
+
+    background-color: #f7f7f7;
+}
+/* <!-- ========= start navbar ========= --> */
+
+.navbar
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.navbar-brand img
+{
+    width: 100px;
+}
+
+.navbar-nav li
+{
+    padding-left: 20px;
+}
+.navbar-nav a
+{
+  color: white !important ;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+
+.nav-icon
+{
+    border-left: 1px solid rgba(255, 255, 255, 0.2) ;
+   
+}
+
+.nav-icon a
+{
+    color: white;
+    padding-left: 30px;
+}
+
+
+/* <!-- =========end navbar ========= --> */
+
+/* <!-- ========= start header ========= --> */
+ 
+#header .background-pic1
+{
+    background-image: url(../images/bg-image-28.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#header .background-pic2
+{
+    background-image: url(../images/bg-image-29.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#header .header-title h1
+{
+    font-size: 6.25rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+
+
+#header .header-title h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+#header .header-title button
+{
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: transparent;
+    border:  2px solid white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+#header .header-title .btn-color
+{
+    background-color: #00c3da;
+    border: none;
+    padding: 15px 35px;
+    
+}
+
+
+#header .btn-arrow
+{
+    border: 2px solid #fff ;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+   
+}
+
+.btn-arrows
+{
+    position: fixed;
+    top: 300px;
+    left: 0;
+}
+
+
+/* <!-- ========= end header ========= --> */
+
+
+
+/* <!-- ========= start introduction ========= --> */
+#introduction p
+{
+   font-size: 1.5rem; 
+   text-align: center;
+}
+
+#introduction h6
+{
+    color: rgb(31, 31, 31) !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+#introduction button
+{
+    border: 1px solid #dedede;
+    color: #1f1f1f !important;
+    background-color: transparent;
+    font-size: 11px;
+    padding: 15px 30px ;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* <!-- ========= end introduction ========= --> */
+
+
+
+/* <!-- ========= start creative-team ========= --> */
+
+  #creative h2
+  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #1f1f1f;
+    position: relative;
+  }
+  #creative h2::before
+  {
+    content: "C";
+    position: absolute;
+    top: -105%;
+    left: 50%;
+   
+    opacity: 0.06;
+    transform: translate(-50%);
+    font-size:80px ;
+
+
+  }
+
+
+  #creative h4
+  {
+      color: #787878;
+      font-size: 18px;
+  }
+  
+  #creative .team-pic
+  {
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  #creative .team-layer
+  {
+     background-color: rgba(0, 195, 218, 0.9);
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     bottom: 0%;
+     transition: all 2s;
+     opacity: 0;
+     
+  }
+
+  #creative .team-pic:hover  .team-layer
+  {
+      opacity: 1;
+     
+  }
+
+  .team-layer-text
+  {
+      position:absolute;
+      bottom: 0;
+    
+  }
+/* <!-- ========= end creative-team ========= --> */
+
+
+/* <!-- ========= start design========= --> */
+
+#design .design-text
+{
+    background-color: #787878;
+
+}
+
+#design .design-text h4
+{
+    font-size: 13px;
+    color: #fff;
+}
+
+#design .design-text h2
+{
+   font-size: 38px;
+   color: #fff;
+}
+
+#design .design-text p
+{
+    color: #fff;
+}
+
+#design .design-text li
+{
+    color: #fff;
+    margin-bottom: 20px;
+    list-style-type: none
+}
+
+#design .design-text i
+{
+    margin-right: 15px;
+}
+/* <!-- ========= end design========= --> */
+
+/* <!-- ========= start prices ========= --> */
+
+#prices .price-title h2
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #1f1f1f;
+  position: relative;
+}
+#prices .price-title h2::before
+{
+  content: "C";
+  position: absolute;
+  top: -105%;
+  left: 50%;
+ 
+  opacity: 0.06;
+  transform: translate(-50%);
+  font-size:80px ;
+
+
+}
+
+.price-table
+{
+    position: relative;
+}
+
+
+#prices h4
+  {
+      color: #787878;
+      font-size: 18px;
+  }
+
+  #prices .price-table h4
+  {
+      color: #1f1f1f;
+      font-size: 13px;
+  }
+
+
+  #prices .price-table span
+  {
+   position: absolute;
+   top: 10%;
+   left: 60%;
+   border: none;
+   background-color: #00c3da;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+ 
+
+  #prices .price-table .price-number1
+  {
+      color: #1f1f1f;
+      position: relative;
+      font-size: 20px;
+  }
+
+  #prices .price-table .price-number1::before
+  {
+    content: "9";
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 55px;
+   
+  }
+
+
+  #prices .price-table hr
+  {
+      color: #787878;
+      margin: 30px 0px;
+     
+  }
+
+  #prices .price-table p
+  {
+      color: #787878;
+      padding-bottom: 10px;
+  }
+
+  #prices .price-table button
+  
+  {
+      background-color: #00c3da;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+  }
+
+
+
+
+  #prices .price-table .price-number2
+  {
+      color: #1f1f1f;
+      position: relative;
+      font-size: 20px;
+  }
+
+  #prices .price-table .price-number2::before
+  {
+    content: "19";
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 55px;
+   
+  }
+
+
+  #prices .price-table .price-number3
+  {
+      color: #1f1f1f;
+      position: relative;
+      font-size: 20px;
+      color: #00c3da;
+  }
+
+  #prices .price-table .price-number3::before
+  {
+    content: "29";
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 55px;
+    color: #00c3da;
+   
+  }
+
+  #prices .price-table .price-number4
+  {
+      color: #1f1f1f;
+      position: relative;
+      font-size: 20px;
+  }
+
+  #prices .price-table .price-number4::before
+  {
+    content: "49";
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 55px;
+   
+  }
+/* <!-- ========= end prices ========= --> */
+
+
+
+/* <!-- !-- ========= start testmonial ========= -->  */
+
+#testmonial .member
+{
+    position: relative;
+}
+
+
+#testmonial .member img
+{
+   width: 100px;
+   position: absolute;
+   bottom: 80%;
+  
+}
+
+.carousel-inner
+{
+    overflow: visible;
+}
+.carousel
+{
+    position: relative !important;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    color: #00c3da;
+    /* position: static !important;
+    top: 100%;
+    color: #00c3da; */
+    
+} 
+
+.carousel-control-prev-icon
+{
+    color: black !important;
+}
+
+/* ======= end testomnial ===== */
+
+/* ========= start footer ===== */
+
+.form-title h2
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #1f1f1f;
+  position: relative;
+}
+.form-title h2::before
+{
+  content: "G";
+  position: absolute;
+  top: -105%;
+  left: 30%%;
+ 
+  opacity: 0.06;
+  transform: translate(-50%);
+  font-size:80px ;
+
+
+}
+
+.form-title h4
+  {
+      color: #787878;
+      font-size: 18px;
+  }
+
+  form button
+  {
+      background-color: #00c3da !important;
+    color: #fff;
+    padding: 10px 30px;
+    border: none !important;
+    border-radius: 4px !important;
+
+  }
+
+/* =========== end footer ======== */
